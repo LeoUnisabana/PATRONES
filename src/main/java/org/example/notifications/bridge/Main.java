@@ -24,7 +24,7 @@ public class Main {
         Notificacion advertencia = new NotificacionAdvertencia(desktop);
         advertencia.enviar("Espacio casi lleno");
 
-        // Cambio dinámico de plataforma 🔥
+        // Cambio dinámico de plataforma 
         mensaje.setPlataforma(movil);
         mensaje.enviar("Ahora se muestra en móvil");
     }
