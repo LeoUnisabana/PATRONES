@@ -50,6 +50,7 @@ Aplicación del patrón Bridge para el sistema de notificaciones.
 # 5. Diagrama de clases
 
 ```mermaid
+%%{ init: { 'theme': 'base', 'themeVariables': { 'background': '#ffffff', 'primaryColor': '#ffffff', 'primaryTextColor': '#000000', 'primaryBorderColor': '#000000', 'lineColor': '#000000', 'secondaryColor': '#ffffff', 'secondaryTextColor': '#000000', 'tertiaryColor': '#ffffff', 'tertiaryTextColor': '#000000' } } }%%
 classDiagram
     %% Jerarquía de Implementación (Plataformas)
     class Plataforma {
